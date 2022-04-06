@@ -45,11 +45,6 @@ pip3 install mediapipe
 
 **NOTE: Mediapipe Library supports only Python 3.7 and above. Please ensure that you install the Latest Version of Python in your System**
 
-**INSTALLING SOCKET LIBRARY:**
-
-For Python:
-pip3 install sockets
-
 **INSTALLING SERIAL LIBRARY:**
 
 for Python:
