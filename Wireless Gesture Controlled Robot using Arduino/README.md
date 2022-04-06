@@ -22,12 +22,15 @@ Incase your laptop doesn't have a built in Camera. Just change the following cod
 cap = cv2.VideoCapture(0)
 
 to:
+
 cap = cv2.VideoCapture(1)
 
 and change the below code:
+
 cv2.waitKey(1)
 
 to:
+
 k = cv2.waitKey(30) & 0xff
         if k == 27:
             break
